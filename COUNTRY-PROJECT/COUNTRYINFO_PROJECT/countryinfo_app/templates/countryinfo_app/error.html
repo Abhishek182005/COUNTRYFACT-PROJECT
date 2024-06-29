@@ -1,0 +1,11 @@
+{% extends 'countryinfo_app/base.html' %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+<div class="container-fluid position-absolute top-50 start-50 translate-middle">
+<h1>Error</h1>
+<p>{{ error_message }}</p>
+<a href="{% url retry_url %}" class="btn btn-primary">Retry</a>
+</div>
+{% endblock %}

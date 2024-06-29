@@ -1,0 +1,116 @@
+{% extends 'countryinfo_app/base.html' %}
+
+{% block title %}Country Info{% endblock %}
+
+{% block content %}
+<br>
+<div class="container-fluid text-center">
+    <h1 class="mb-4 bg-primary-subtle text-danger">Details of {{ name }}</h1>
+    <table class="table table-sm table-striped table-bordered table-hover">
+         <thead>
+            <th  class="bg-dark text-warning">ATTRIBUTE</th>
+            <th class="bg-dark text-warning">{{name|upper }}</th>
+            </thead>
+        <tr>
+            <th class="text-center">Country Name</th>
+            <td class="text-center">{{ name }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Capital</th>
+            <td class="text-center">{{ capital }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Region</th>
+            <td class="text-center">{{ region }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Subregion</th>
+            <td class="text-center">{{ subregion }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Population</th>
+            <td class="text-center">{{ population }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Area</th>
+            <td class="text-center">{{ area }} km²</td>
+        </tr>
+        <tr>
+            <th class="text-center">Latitude and Longitude</th>
+            <td class="text-center">{{ latlng.0 }}° N, {{ latlng.1 }}° E</td>
+        </tr>
+        <tr>
+            <th class="text-center">Currencies</th>
+            <td class="text-center">
+                {% for currency in currencies %}
+                    {{ currency.name }} ({{ currency.code }}){% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th class="text-center">Languages</th>
+            <td class="text-center">
+                {% for language in languages %}
+                    {{ language.name }} ({{ language.code }}){% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th class="text-center">Timezone</th>
+            <td class="text-center">
+                {% for timezone in timezones %}
+                    {{ timezone }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th class="text-center">Calling Codes</th>
+            <td class="text-center">
+                {% for code in calling_codes %}
+                    +{{ code }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th class="text-center">Top Level Domain</th>
+            <td class="text-center">{{ tld.0 }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Native Name</th>
+            <td class="text-center">{{ native_name }}</td>
+        </tr>
+        <tr>
+            <th class="text-center">Other Names</th>
+            <td class="text-center">
+                {% for alt_spelling in alt_spellings %}
+                    {{ alt_spelling }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th class="text-center">Demonym</th>
+            <td class="text-center">{{ demonym }}</td>
+        </tr>
+       <tr>
+        <th class="text-center">Provinces</th>
+        <td class="text-center">
+                <ul class="list-unstyled">
+            {% for province in provinces %}
+                <li class="text-center">{{ province }}</li>
+                {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th class="text-center">More info</th>
+            <td class="text-center"><a href="{{ wiki }}" target="_blank">{{ wiki }}</a></td>
+        </tr>
+    </table>
+    
+    <div class="mt-4">
+        <a href="{% url 'menu' %}" class="btn btn-secondary mr-2">Back to Menu</a>
+        <a href="{% url 'country_info' %}" class="btn btn-primary">Search Another Country</a>
+    </div>
+</div>
+
+{% endblock %}
