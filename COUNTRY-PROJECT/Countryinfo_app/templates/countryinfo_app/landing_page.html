@@ -1,0 +1,19 @@
+{% extends 'Countryinfo_app/base.html' %}
+{% load static %}
+
+{% block title %}Welcome to Country Info App{% endblock %}
+
+
+{% block content %}
+<div class="container-fluid position-absolute top-50 start-50 translate-middle">
+    <div class="jumbotron jumbotron-fluid bg-light" style="height: 250px; padding-bottom: 20px;">
+        <h1 class="display-4 text-center">Welcome to Country Info App</h1>
+        <p class="lead text-center">Explore information about countries with ease.</p>
+        <hr class="my-4">
+        <p class="text-center">Click below to get started:</p>
+        <div class="text-center">
+            <a class="btn btn-primary btn-lg" href="{% url 'menu' %}" role="button">Go to Menu</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
