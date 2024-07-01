@@ -42,6 +42,8 @@ Also navbaar is provided to make the toggle between the pages easier.
 <br>
 <b>Country Info<b>
 <br>
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/09e3c4dc-b2e2-4acf-87f6-78eaedc71abf)
+<br>
 ![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/ffd32c7c-3529-4636-aee3-5ed6808e4f3c)
 <br>
 ![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/27d77d24-b671-460e-a171-9505383dbc5b)
