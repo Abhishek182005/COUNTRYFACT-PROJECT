@@ -2,7 +2,7 @@
 It is a python program which imports the module of countryInfo and gives results like Country Info, Compare two Country, two countries and also gives country and capital from csv file. It contain old csv file which contain country and capital. New csv file is already
 added in the website folder.
 <br>
-The website source code is available in the COUNTRY-PROJECT folder
+The website source code is available in the COUNTRY-WEBSITE folder
 <br>
 <b>SNEAK PEAK <b>
 <br>
