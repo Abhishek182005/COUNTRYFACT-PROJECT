@@ -1,19 +1,23 @@
 # CountryFact
-It is a python program which imports the module of countryInfo and gives results like Country Info, Compare two Country, two countries and also gives country and capital from csv file.
+It is a python program which imports the module of countryInfo and gives results like Country Info, Compare two Country, two countries and also gives country and capital from csv file. It contain old csv file which contain country and capital. New csv file is already
+added in the website folder.
 <br>
-The website version will be coming soon in nearby future.
+The website source code is available in the COUNTRY-PROJECT folder
 <br>
 <b>SNEAK PEAK <b>
 <br>
-![image](https://github.com/Abhishek182005/CountryFact/assets/164459641/3a9ea0fa-ee0c-47c6-8819-4821d26bbaf5)
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/a128e2d6-09fd-404a-bd7b-f1066c46fc54)
 <br>
-![image](https://github.com/Abhishek182005/CountryFact/assets/164459641/566f7688-e59c-4d94-984e-96db9b5513fd)
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/d562a18d-537b-46e4-9b7d-64682715b98e)
 <br>
-![image](https://github.com/Abhishek182005/CountryFact/assets/164459641/96f1d89a-3237-4b72-bfba-909876b0497e)
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/5b7f4251-e821-4879-acc0-877dcc1c380d)
 <br>
-![image](https://github.com/Abhishek182005/CountryFact/assets/164459641/32813553-3a4f-41bd-ba4c-c92bd96c8404)
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/8319fce4-3da7-439d-80f5-33bcb32c24be)
 <br>
-![image](https://github.com/Abhishek182005/CountryFact/assets/164459641/663f420c-01e5-4314-8e91-1e4f72193a79)
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/9c85cde6-e4c4-4582-bc24-43d67dcc8b80)
 <br>
-![image](https://github.com/Abhishek182005/CountryFact/assets/164459641/59712890-47a2-4d45-8ecd-f23f2eb04357)
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/f84485f1-a6ac-41dd-a5ae-605fe0d9228a)
+<br>
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/f51e81d0-f441-4d35-bc60-367a6a757045)
+
 
