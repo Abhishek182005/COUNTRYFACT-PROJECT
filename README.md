@@ -1,4 +1,4 @@
-# COUNTRYFACT PROJECT
+# COUNTRYFACT-PROJECT
 This project consist of two folder
 
 <ol>
@@ -6,10 +6,11 @@ This project consist of two folder
   Python file which acted as bluepirnt for this project
     </li>
   <li>
-Website files made from Django of password.
+Website files made from Django of Countryinfo.
   </li>
 </ol>
-for more info read the README of respective files
+<br>
+For more info read the README of respective files
 <br>
 <b>SNEAK PEAK</b>
 
