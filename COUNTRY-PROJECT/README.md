@@ -22,7 +22,7 @@ In the Landing page it consist of an option which lands you to the menu page whi
         </ol>
   </li>
      <li> <b>Country and Country :- <b> It opens page where enlists the name of all 196 countries along with their capitals, currency <br>
-     and region. It has taken data by extracting it from 
+     and region. It has taken data by extracting it from COUNTRIESANDCAPITAL.csv of Static folder.
   </li>
 </ul>
 Also navbaar is provided to make the toggle between the pages easier.
@@ -65,4 +65,9 @@ Also navbaar is provided to make the toggle between the pages easier.
 <b>Country and Capital<b>
 <br>
 ![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/e0c0b278-5a03-4f81-b227-d8397f735f5d)
+<br>
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/b55c7cb0-9f33-4fc3-a6ac-b0f800ecc1d3)
+<br>
+<b>COUNTRIESANDCAPITAL.csv<b>
+![image](https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/assets/164459641/5f770a36-688a-434d-8ede-748053c097bd)
 
