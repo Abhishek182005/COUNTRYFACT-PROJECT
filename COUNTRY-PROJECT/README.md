@@ -6,7 +6,7 @@ Concept is driven by the giving the info of the country.
 <br>
 In the Landing page it consist of an option which lands you to the menu page which has three options
 <ul>
-  <li> <b>  Country Infio :- <b> It opens the new page where you get the details of one country ranging from regions to <br>
+  <li> <b>  Country Infio :- </b> It opens the new page where you get the details of one country ranging from regions to <br>
       Provinces. For more info the wikipedia link is option is also given.
     Here you get 2 options
         <ol>
@@ -14,20 +14,22 @@ In the Landing page it consist of an option which lands you to the menu page whi
           <li> Sarch about Another Country</li>
         </ol>
   </li>
-   <li> <b>Compare two Countries:- <b> It opens the new page where you enter name of 2 cpountries and it will compare them . <br>
+   <li> <b>Compare two Countries:- </b> It opens the new page where you enter name of 2 cpountries and it will compare them . <br>
     on the basis of details in a detail format. Here you get 2 options
         <ol>
           <li>Compare 2 other countries</li>
           <li> Go to Menu</li>
         </ol>
   </li>
-     <li> <b>Country and Country :- <b> It opens page where enlists the name of all 196 countries along with their capitals, currency <br>
+     <li> <b>Country and Country :- </b> It opens page where enlists the name of all 196 countries along with their capitals, currency <br>
      and region. It has taken data by extracting it from COUNTRIESANDCAPITAL.csv of Static folder.
   </li>
 </ul>
 Also navbaar is provided to make the toggle between the pages easier.
 <br>
+<br>
 <b> SNEAK PEAK <b>
+<br>
 <br>
 <b>Landing page<b>
 <br>
