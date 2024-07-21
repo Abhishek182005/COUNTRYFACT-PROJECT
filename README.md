@@ -11,6 +11,14 @@ Website files made from Django of Countryinfo.
 </ol>
 <br>
 For more info read the README of respective files
+<ul>
+  <li>
+    <a href="https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/blob/main/COUNTRY-BLUEPRINT/README.md"> For blueprint </a>
+  </li>
+  <li>
+    <a href="https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/blob/main/COUNTRY-WEBSITE/README.md"> for website</a>
+  </li>
+</ul>
 <br>
 <b>SNEAK PEAK</b>
 
