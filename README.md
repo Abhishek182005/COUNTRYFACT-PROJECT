@@ -13,10 +13,10 @@ Website files made from Django of Countryinfo.
 For more info read the README of respective files
 <ul>
   <li>
-    <a href="https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/blob/main/COUNTRY-BLUEPRINT/README.md"> For blueprint </a>
+    <a href="https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/tree/main/COUNTRY-BLUEPRINT"> For blueprint </a>
   </li>
   <li>
-    <a href="https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/blob/main/COUNTRY-WEBSITE/README.md"> for website</a>
+    <a href="https://github.com/Abhishek182005/COUNTRYFACT-PROJECT/blob/main/COUNTRY-WEBSITE"> for website</a>
   </li>
 </ul>
 <br>
